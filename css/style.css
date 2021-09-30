@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER */
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: black;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+
+header ul li{
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+header ul li:hover{
+    cursor: pointer;
+}
+
+.fas{
+    color: white;
+}
+
+/* MAIN */
+main{
+    padding: 80px 20px 100px 20px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slot-cam{
+    padding: 5px;
+}
+.slot-cam img{
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+}
