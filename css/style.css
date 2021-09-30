@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Lato', sans-serif;
+}
 /* HEADER */
 header{
     position: fixed;
@@ -11,6 +15,7 @@ header{
     justify-content: flex-end;
     padding: 5px;
     background-color: black;
+    z-index: 999;
 }
 
 header ul{
@@ -26,14 +31,11 @@ header ul li{
     text-align: center;
     padding: 2px 5px;
     border-radius: 5px;
+    margin-right: 5px;
 }
 
 header ul li:hover{
     cursor: pointer;
-}
-
-.fas{
-    color: white;
 }
 
 /* MAIN */
@@ -46,6 +48,7 @@ main{
 }
 
 .slot-cam{
+    position: relative;
     padding: 5px;
 }
 .slot-cam img{
@@ -53,3 +56,12 @@ main{
     height: 180px;
     background-size: cover;
 }
+
+.user{
+    position: absolute;
+    left: 20px;
+    bottom: 9px;
+    background-color: rgba(46, 47, 42, .8);
+    color: white;
+}
+
