@@ -45,6 +45,7 @@ main{
     height: calc(100vh - 93px - 63px);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .slot-cam{
