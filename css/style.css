@@ -85,7 +85,7 @@ footer{
     color: white;
     align-items: center;
 }
-    
+
 footer ul{
     color: white;
     list-style: none;
@@ -145,10 +145,12 @@ footer ul{
 /* FOOTER RIGHT */
 
 .footer-right{
+    display: flex;
     height: 100%;
     width: 15%;
     background: #4A4A4A;
     color: red;
     text-align: center;
+    justify-content: center;
     cursor: pointer;
 }
